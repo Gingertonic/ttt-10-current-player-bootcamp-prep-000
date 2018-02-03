@@ -13,7 +13,15 @@ end
 # end
 
 
+# 
+# def current_player(board)
+#     turn_count(board) % 2 ? "O" : "X"
+# end
 
 def current_player(board)
-    turn_count(board) % 2 ? "O" : "X"
+  if turn_count(board) % 2 == "X"
+    puts "X"
+  else
+    puts "O"
+  end
 end
