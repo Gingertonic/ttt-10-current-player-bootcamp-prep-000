@@ -4,7 +4,7 @@ def turn_count(board)
     if place == "X" || place == "O"
       counter += 1
     end
-    puts "It is turn #{counter}"
+    puts counter
   end
 end
 
