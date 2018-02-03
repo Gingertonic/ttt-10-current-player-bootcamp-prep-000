@@ -7,8 +7,7 @@ def turn_count(board)
     puts "It is turn #{counter}"
 end
 
-  def current_player(board)
-    next_player = if turn_count % 2 ? "O" : "X"
-    puts next_player
-  end
+def current_player(board)
+  next_player = if turn_count % 2 ? "O" : "X"
+  puts next_player
 end
